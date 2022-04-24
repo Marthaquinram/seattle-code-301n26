@@ -105,7 +105,15 @@ We will spend some time reviewing the concepts from the prework. We will also di
     - to close down your React server
       - control + c
 - Introduction to code challenges
+  - Daily "Shred Talks" will introduce you to a new javascript coding concept, setting you up to complete the daily "Code Challenge" series.
+  - Make sure you are in the javascript folder of your DSA repo before running any javascript commands in the terminal.
+  - Don't forget to work on a new branch!
+  - Don't forget to pull down the new challenges!
+  - npm run get-challenge 01
+  - You only need to run this command ONCE to grab all of the Code Challenges for this assignment.
+  - Check out the how-to-solve-a-code-challenge.md file for tips and tricks on how to break down a code challenge and solve it.
 - Introduction of code challenge topic
+  - Array.forEach() Demo in Repl.it: <https://replit.com/@HexxKing1/301n26-Code-Challenges-arrayforEach#index.js>
 - Lab prep
 
 ## Learning Objectives
