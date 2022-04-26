@@ -7,9 +7,10 @@ Today's class will focus on passing information as `props` from a parent compone
 ## Daily Plan
 
 - Warm-up exercise
-- Review code challenges
-- Introduction of today's code challenge topic
+- Quick review class 01 concepts
 - Code review of lab assignment
+- Review code challenges
+- Introduction of today's code challenge topic(s)
 - Code Demo
 - Bootstrap
 - Lab Preview
@@ -34,7 +35,7 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
 
 ## Notes
 
-1. What is state? 
+1. What is state?
 
 1. What are props?
 
@@ -75,7 +76,7 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
   }
 
   export default Parent
-  
+
   import React from 'react';
 
   class Child extends React.Component {
