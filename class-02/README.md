@@ -56,6 +56,7 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
 1. How does Bootstrap use classes for customization?
 
 1. Holding state in a parent component and sending it into a child component:
+
   ```javaScript
   import React from 'react';
   import Child from './path-to-Child-component';
@@ -91,3 +92,11 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
 
   export default Child
   ```
+
+## Portfolio Prep Resources
+
+- Example of the Portfolio Prep assignment
+  - <https://github.com/HexxKing/portfolioPrep>
+
+- Canva Tool for Creating Banners and such...
+  - <https://www.canva.com/>
