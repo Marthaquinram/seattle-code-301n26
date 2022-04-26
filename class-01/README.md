@@ -122,10 +122,15 @@ As as result of completing Lecture 1 of Code 301, students will:
 
 - Describe and Define:
   - Component-based architecture
+    - A component architecture is a type of application architecture composed of independent, modular, and reusable building blocks called components.
   - React
+    - React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in the application.
   - `create-react-app`
+    - Create React App (CRA) is a tool to create single-page React applications that is officially supported by the React team. The script generates the required files and folders to start the React application and run it on the browser.
   - JavaScript classes
+    - Introduced in ES6, JavaScript Classes are templates for creating JavaScript Objects. It is also a template for creating a React class component.
   - Arrow functions
+    - Arrow functions are one of the features introduced in the ES6 version of JavaScript. It allows you to create functions in a cleaner (shorter) way compared to regular functions.
 - Gain an understanding of scope with arrow functions
 - Gain an understanding of context, scope, "this", and the "new" keyword
 - Gain an understanding of the core concepts of React and how to create a basic React application
@@ -134,9 +139,18 @@ As as result of completing Lecture 1 of Code 301, students will:
 
 ## Notes
 
-1. What is React?
-1. What are components?
-1. What is the difference between an arrow function and a function declaration?
+- What is React?
+  - React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.
+- What are components?
+  - Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions or classes, but work in isolation and return JSX (HTML in JavaScript). Components come in two types, Class components and Functional components. In 301, we will concentrate on class components.
+- What is the difference between an arrow function and a function declaration?
+  - Arrow functions don't have their own bindings to `this`, `arguments` or `super`, and should not be used as `methods`.
+  - Arrow functions don't have access to the `new.target` keyword.
+  - Arrow functions aren't suitable for `call`, `apply` and `bind` methods, which generally rely on establishing a `scope`.
+  - Arrow functions cannot be used as `constructors`.
+  - Arrow functions cannot use `yield`, within its body.
+  - resource: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions>
+
 1. Turning a function declaration into an arrow function:
 
    ```javascript
