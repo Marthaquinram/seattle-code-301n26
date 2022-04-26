@@ -11,6 +11,8 @@ Today's class will focus on passing information as `props` from a parent compone
 - Code review of lab assignment
 - Review code challenges
 - Introduction of today's code challenge topic(s)
+  - Demo in Repl.it:
+    - <https://replit.com/@HexxKing1/301n26-Code-Challenges-arraymap-and-arrayfilter#index.js>
 - Code Demo
 - Bootstrap
 - Lab Preview
