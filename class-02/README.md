@@ -15,6 +15,7 @@ Today's class will focus on passing information as `props` from a parent compone
     - <https://replit.com/@HexxKing1/301n26-Code-Challenges-arraymap-and-arrayfilter#index.js>
 - Code Demo
 - Bootstrap
+- Netlify
 - Lab Preview
 
 ## Learning Objectives
@@ -37,23 +38,38 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
 
 ## Notes
 
-1. What is state?
-
-1. What are props?
+- What is state?
+  - The state is a built-in React object that is used to hold data about the component. A component's state can change, and when it changes, the whole component re-renders and therefore re-renders any child component with the newly updated data as well.
+- What are props?
+  - Props is a special kind of object in React that allows us to pass data from a parent component to a child component(s). Props is short for "properties". They are useful when you want the flow of data in your app to be dynamic.
 
 1. To Update State: `this.setState({ thingInState: thingToUpdate })`
 
-1. To send something in props to a child component: `<ChildComponent bananas='randomString' />`
+1. To send something in props to a child component:
+`<ChildComponent bananas='randomString' />`
 
 1. To access that variable in the props from the child component: `this.props.bananas`
 
-1. Information flows in one direction. That direciton is ______________.
+1. Information flows in one direction. That direciton is down.
 
-1. What is Bootstrap?
+- What is Bootstrap?
+  - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.(Wikipedia)
 
-1. What are different things that I can customize using Bootstrap?
+- dynamic is the ability to update a value in an application and that new value is automatically updated everywhere it is needed.
 
-1. How does Bootstrap use classes for customization?
+- responsive just means that your UI can be displayed on any size screen like a phone vs a tablet vs a computer screen (and it still look nice).
+
+- What are different things that I can customize using Bootstrap?
+  - forms
+  - modals
+  - buttons
+  - images
+  - tables
+
+- in React, we must use `className` instead of `class` when needing a CSS selector. `class` is a reserved word that created instances of objects in JavaScript.
+
+- How does Bootstrap use classes for customization?
+  - <https://getbootstrap.com/docs/5.0/utilities/api/>
 
 1. Holding state in a parent component and sending it into a child component:
 
