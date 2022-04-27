@@ -78,10 +78,12 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
   import Child from './path-to-Child-component';
 
   class Parent extends React.Component {
-    constructor(props);
-    this.state={
-      name: 'sue',
-      childName: 'bob'
+    constructor(props){
+      super(props);
+      this.state={
+        name: 'sue',
+        childName: 'bob'
+      }
     }
 
     render() {
