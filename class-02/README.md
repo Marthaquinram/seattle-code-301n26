@@ -45,10 +45,17 @@ As a result of completing Lecture 2 of Code 301, students will be able to:
 
 - Describe and Define:
   - State
+    - The state is a built-in React object that is used to hold data about the component. A component's state can change, and when it changes, the whole component re-renders and therefore re-renders any child component with the newly updated data as well.
   - Props
+    - Props is a special kind of object in React that allows us to pass data from a parent component to a child component(s). Props is short for "properties". They are useful when you want the flow of data in your app to be dynamic.
+    - Props are read-only, meaning that they cannot be changed in the child component.
   - React-Bootstrap
+    - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.(Wikipedia).
   - Netlify
-  - setState
+    - Netlify is a web developer platform with an intuitive git-based workflow, automated deployments and much more. <https://www.netlify.com/about/>
+    - Netlify is a serverless platform that allows us to deploy our React application.
+  - `this.setState({ propertyName: newUpdatedStateValue })`
+    - This is a special method given to us by React that applies changes to the component's state and tells React that this component and its children need to be re-rendered with the updated state. This is the primary method you use to update the user interface in response to event listeners and server responses. <https://reactjs.org/docs/react-component.html#:~:text=and%20forceUpdate()%20.-,setState(),event%20handlers%20and%20server%20responses.>
 - Execute
   - Understand and define the concepts of `props` and `state` as they relate to React Components
   - Pass both static and dynamic information from a parent component into a child component using `props`
