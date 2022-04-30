@@ -6,11 +6,15 @@ Yesterday, you learned how to pass information from a parent component into a ch
 
 ## Daily Plan
 
+- Weekly Feedback Overview
 - Warm-up exercise
-- Review code challenges
-- Introduction of today's code challenge topic
-- Code review of lab assignment
-- Code Demo
+- Concept Review of class 02
+- Code review of lab02 assignment
+- Code Review of code challenges 02
+- Quick review code challenges 03
+  - Demo in Repl.it:
+    - <https://replit.com/@HexxKing1/301n26-Code-Challenges-arraymap-and-arrayfilter#index.js>
+- Lab Demo
 - Lab Preview
 
 ## Learning Objectives
@@ -27,13 +31,13 @@ As a result of completing Lecture 3 of Code 301, students will:
 
 ## Notes
 
-1. How can a child component update the state of a parent component?
+- How can a child component update the state of a parent component?
 
-1. How does a parent component send a function into a child component?
+- How does a parent component send a function into a child component?
 
-1. Using React-Bootstrap, how do you determine if a modal is open or closed?
+- Using React-Bootstrap, how do you determine if a modal is open or closed?
 
-1. Allowing the child component to update the state in the parent component:
+- Allowing the child component to update the state in the parent component:
   - Step 1. send a function into the child component that updates the state in the parent component
   ```javaScript
   class Parent extends React.Component {
