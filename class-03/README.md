@@ -7,6 +7,9 @@ Yesterday, you learned how to pass information from a parent component into a ch
 ## Daily Plan
 
 - Weekly Feedback Overview
+  - "My only real feedback is for the sheer amount of prework. Not that I mind doing it, but it was a short turn around/pressure to get things rolling when there is only a week between 201 ending and 301 beginning."
+  - "There were some real difficulties on my end getting the software development environment properly set up."
+  - Found least helpful: "Reading assignments"
 - Warm-up exercise
 - Concept Review of class 02
 - Code review of lab02 assignment
