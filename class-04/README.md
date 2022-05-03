@@ -7,7 +7,8 @@ Today we will cover how React handles `forms` and the asynchronous nature of set
 ## Daily Plan
 
 - Warm-up exercise
-- Review code challenges
+- Code Review lab
+- Code Review code challenges
 - Introduction of today's code challenge topic, `.sort()`
 - Code Demo
 - Lab Preview
