@@ -26,8 +26,21 @@ As a result of completing Lecture 3 of Code 301, students will:
 
 - Describe and Define:
   - Parent Component
+    - A parent component is like a container for child components.
   - Child Component
+    - A child component is a more specific part inside a parent component.
+    - A parent component is a component that has a wider scope and a child component is a component that is apart of that scope but not all of it.
   - Spread Operator
+    - The spread operator is a new addition to the set of operators in JavaScript ES6.
+    - The JavaScript spread operator allows us to quickly copy all or part of an existing array or object into another array or object. <https://www.w3schools.com/react/react_es6_spread.asp>
+    - We can use the spread operator with objects or arrays.
+
+    ```js
+    const numbersOne = [1, 2, 3];
+    const numbersTwo = [4, 5, 6];
+    const numbersCombined = [...numbersOne, ...numbersTwo];
+    ```
+
 - Be able to pass functions from a parent component to a child component
 - Understand the spread opperator
 - Understand `.map` and how to use it to render data in a React application
