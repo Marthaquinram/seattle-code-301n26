@@ -30,8 +30,14 @@ As a result of completing lecture 4 of Code 301, students will:
 
 ## Notes
 
-1. What is the difference between an event listener and an event handler?
+- What is the difference between an event listener and an event handler?
+  - Event listener just listens for the event.
+    - onClick; onSubmit; input; onChange
+  - Event Handler is the function that does something with the value that comes from the form.
 
-1. If I am listening for an onChange on the input field, how to I access the value that the user is typing in?
+- If I am listening for an onChange on the input field, how to I access the value that the user is typing in?
+  - event.target.value
 
-1. If the form is my child component, how do I send the information collected from that form up to the parent component?
+- If the form is my child component, how do I send the information collected from that form up to the parent component?
+  - lifting state!
+  - we define a function in the parent that gets passed down to the child. The child calls that function and passes it the value(s) from the form to then be saved in state in the Parent.
