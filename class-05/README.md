@@ -8,6 +8,8 @@ Today we will use the skills we learned over the week to build a new application
 
 - Warm-up exercise
 - Introduction of today's code challenge topic
+  - Repl.it Demo:
+    - <https://replit.com/@HexxKing1/301n26-Code-Challenges-arrayreduce#index.js>
 - Build City Explorer (React)
 - Lab Preview
 
