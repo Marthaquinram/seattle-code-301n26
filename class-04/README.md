@@ -21,10 +21,16 @@ As a result of completing lecture 4 of Code 301, students will:
 
 - Describe and Define:
   - Event
+    - The user does something on the browser that triggers a listener.
   - Forms
+    - Could be a React-Bootstrap component
+    - It's a way for us to collect user input
   - Event Listeners
+    - Listens for the event to happen on the element in which it's attached to.
   - Event Handlers
+    - The function that fires off to handle that event.
   - event.target
+    - The event object has a property called target that will target a input in your form and that target object has a property on it called value that holds the value of whatever came from that input field.
 - Understand how to use a `form` in a React application
 - Be able to send information collected from a form into a child component
 
