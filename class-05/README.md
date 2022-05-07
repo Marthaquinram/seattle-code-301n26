@@ -89,3 +89,14 @@ As a result of completing lecture 5 of Code 301, students will:
     }
   }
   ```
+
+
+## Feedback Overview
+
+- "The past week has been busy, although between seeing Danny/Hugo and the others on that team present I am very excited to see what my team and I will come up with at the end of the class."
+- "Code review. Going over problems or issues with the entire class and the instructor lets me get an idea of the workflow others are using to attack their problems."
+- "I struggle with technical readings. W3Schools is now my best friend"
+- "My only concern is whether I can get a new tutor"
+- "Bootstrap. I know it's a good thing. I know it's better than CSS. I still don't like it and understand it even less than CSS."
+- Found least helpful: "sometimes the reading notes...I don't understand what I am reading"
+- CODE REVIEW & DEMOS!!
