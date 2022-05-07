@@ -100,3 +100,8 @@ As a result of completing lecture 5 of Code 301, students will:
 - "Bootstrap. I know it's a good thing. I know it's better than CSS. I still don't like it and understand it even less than CSS."
 - Found least helpful: "sometimes the reading notes...I don't understand what I am reading"
 - CODE REVIEW & DEMOS!!
+
+
+## Professional Pitch Guide
+
+- <https://docs.google.com/document/d/1CNjkvPymJ07oPZx7_cV_mQmIKtYA2xEuyQuuR4Acvkg/edit?usp=sharing>
