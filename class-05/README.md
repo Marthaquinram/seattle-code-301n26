@@ -23,8 +23,11 @@ As a result of completing lecture 5 of Code 301, students will:
 
 - Describe and Define:
   - Conditional Rendering
+    - if this condition is met, show this thing.
   - Ternary Statements
+    - short way of writing an if/else conditional
   - Browser Router
+    - Its the thing on the website that allows us to switch between pages/components
 - Be able to build a React app that passes props from parent component to child component
 - Hold state in the application
 - Use forms in React
