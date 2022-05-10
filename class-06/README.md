@@ -7,9 +7,10 @@ Today we will explore third party APIs and how to request data from them.
 ## Daily Plan
 
 - Warm-up exercise
-- Review code challenges
-- Introduction of today's code challenge topic
+- Quick Concept Review
 - Code review of previous lab assignment
+- Code review code challenges
+- Introduction of today's code challenge topic
 - Third Party APIs, `async` and `await`
 - Code Demo
 - Lab Preview
@@ -18,7 +19,7 @@ Today we will explore third party APIs and how to request data from them.
 
 As a result of completing Lecture 6 of Code 301, students will:
 
-- Describe and Define: 
+- Describe and Define:
   - APIs
   - Postman
   - .env
@@ -44,7 +45,7 @@ As a result of completing Lecture 6 of Code 301, students will:
 1. What is axios?
 1. Making a variable in an .env file: `PORT=3000`
 
-   - Common ways to get that wrong: 
+   - Common ways to get that wrong:
      - Spaces around the `=`
      - Adding a semicolon at the end of the line
      - Using something other than UPPERCASE
