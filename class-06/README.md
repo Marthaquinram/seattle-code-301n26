@@ -22,7 +22,7 @@ As a result of completing Lecture 6 of Code 301, students will:
 
 - Describe and Define:
   - APIs
-  - Postman
+  - Thunder Client
   - .env
   - Axios
   - async and await
@@ -34,7 +34,7 @@ As a result of completing Lecture 6 of Code 301, students will:
   - Response
 - Understand third-party APIs
 - Be able to gather information from APIs
-- Use Postman to test routes
+- Use Thunder Client to test routes
 - Understand async and await
 
 ## Notes
@@ -42,7 +42,7 @@ As a result of completing Lecture 6 of Code 301, students will:
 1. What is an API?
 1. What is asynchronous code and how does it relate to async and await?
 1. Why do you need an API key?
-1. What is Postman?
+1. What is Thunder Client?
 1. What is axios?
 1. Making a variable in an .env file: `PORT=3000`
 
