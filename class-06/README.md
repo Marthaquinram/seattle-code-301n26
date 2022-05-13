@@ -22,16 +22,44 @@ As a result of completing Lecture 6 of Code 301, students will:
 
 - Describe and Define:
   - APIs
+    - Application Programming Interface
+    - a place where we can ask for data and get it back
   - Thunder Client
+    - VS Code Extension for testing APIs
   - .env
+    - Enviroment
+    - you store your secret keys in there
+    - does not get pushed to GitHub
+    - don't forget to add it to the .gitignore!
   - Axios
+    - retrieve the data from APIs
+    - promise-based
+    - carries the request to the API
   - async and await
+    - together we use it to make promises
+    - async makes a function that returns a promise
+      - async makes a function asynchronous
+    - await makes a function wait for a Promise
+      - await tells our code where to wait for the Promise to be returned
   - Asynchronous Code
+    - hop out of the regular flow of code and continue on and once the Promise comes back from the API, that data gets plugged back into where the script currently is running.
   - API keys
+    - a protection for APIs from most attacks, its like a password to access the API data
   - Queries
+    - what are you searching for
+    - the data you are requesting
   - WRRC
+    - Web Request Response Cycle
+    - the way the whole API thing communicates
+    - it is the cycle of how the internet passes data around
   - Request
+    - object
+    - this is the object that Axios brings the data (query) to our API in
+    - request.query
   - Response
+    - object
+    - this is the iobject that Axios returns the data in from our API
+    - response.data
 - Understand third-party APIs
 - Be able to gather information from APIs
 - Use Thunder Client to test routes
