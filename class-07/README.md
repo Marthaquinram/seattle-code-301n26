@@ -7,9 +7,10 @@ Today we will build our own custom Express server in Node.js. We will server our
 ## Daily Plan
 
 - Warm-up exercise
+- Quick Review of previous concepts
 - Review code challenges
-- Introduction of today's code challenge topic
 - Code review of lab assignment
+- Introduction of today's code challenge topic
 - Functional programming concepts
 - Express Servers
 - Code Demo
