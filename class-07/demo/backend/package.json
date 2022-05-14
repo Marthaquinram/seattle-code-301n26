@@ -1,0 +1,24 @@
+{
+  "name": "shopping-list-api",
+  "version": "1.0.0",
+  "description": "this is a demo for a shopping list API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HexxKing/shopping-list-API.git"
+  },
+  "author": "Hexx King",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HexxKing/shopping-list-API/issues"
+  },
+  "homepage": "https://github.com/HexxKing/shopping-list-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}

@@ -50,6 +50,13 @@ As a result of completing Class 7 of Code 301, students will be able to:
   - Express is the enviroment in which we build our server in.
   - Set common web application settings like the port to use for connecting, and create custom responses for different HTTP paths.
 
+1. What is a PORT?
+
+- Listens on a [Port](https://en.wikipedia.org/wiki/Port_(computer_networking))
+  - In computer networking, a port is a communication endpoint.
+  - At the software level, within an operating system, a port is a logical construct that identifies a specific process or application.
+  - A port number is always associated with the host's IP address and the type of transport protocol (HTTP method) used for communication.
+
 1. What is cors?
 
 - [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
@@ -130,7 +137,6 @@ As a result of completing Class 7 of Code 301, students will be able to:
      });
      ```
 
-
 ## Feedback Overview
 
 - Found least helpful: "The due dates for the classes not being accurate."
@@ -141,4 +147,3 @@ As a result of completing Class 7 of Code 301, students will be able to:
 - "I can't afford a tutor right now"
 - "I struggle with coding challenges"
 - "working through things with partners"
-
