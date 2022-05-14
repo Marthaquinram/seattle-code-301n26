@@ -104,3 +104,16 @@ As a result of completing Class 7 of Code 301, students will be able to:
        response.send(`you sent the city of ${city}`)
      });
      ```
+
+
+## Feedback Overview
+
+- Found least helpful: "The due dates for the classes not being accurate."
+- "Nothing seems to be in place in the course for no reason. Just when I think "oh well X isn't that helpful" I end up referring back to it at some point either during the lab or code challenge."
+- "I also notice a dramatic increase in my ability to follow along with lecture if I commit do thoroughly going over the readings prior to class."
+- "trying not to stress and overthink."
+- "Insight into what are most likely best practices, or at least something more professionally done to see what we'll be working toward!"
+- "I can't afford a tutor right now"
+- "I struggle with coding challenges"
+- "working through things with partners"
+
