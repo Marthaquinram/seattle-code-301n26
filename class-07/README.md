@@ -38,11 +38,36 @@ As a result of completing Class 7 of Code 301, students will be able to:
 
 1. What is a server?
 
+- In computing, a server is a piece of computer hardware or software that provides functionality for other programs or devices, called "clients". This architecture is called the client–server model.
+  - [Wikipedia](https://en.wikipedia.org/wiki/Server_(computing))
+
 1. What is express?
+
+- You can use Node.js to create a simple web server using the Node HTTP package.
+  - Other common web-development tasks, like GET, POST, and DELETE are not directly supported by Node itself.
+  - If you want to do more than just READ, you will either need to write the code yourself, or you can use a web framework, like Express!
+- Express is the most popular Node web framework, and is the underlying library for a number of other popular Node web frameworks.
+  - Express is the enviroment in which we build our server in.
+  - Set common web application settings like the port to use for connecting, and create custom responses for different HTTP paths.
 
 1. What is cors?
 
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+  - Cross-Origin Resource Sharing
+  - "Body Guard of the Internet"
+  - CORS is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+  - CORS developed in response to browser security and vulerabilities.
+    - <https://medium.com/@electra_chong/what-is-cors-what-is-it-used-for-308cafa4df1a>
+  - CORS failures result in errors but for security reasons, specifics about the error are not available to JavaScript. All the code knows is that an error occurred.
+
 1. Why do we need a server?
+
+- Servers connect applications across the internet
+- Set us up to scale our application, without hammering the API.
+- Provide our application a single source to fetch all of the data it needs.
+- Allow a server to do the hard work of formatting data to feed our front end.
+- Servers may have better/faster connections to other servers, making it more efficient than the browser doing this job.
+- Secure our keys, when HTTP Referrer restrictions aren't an option
 
 1. Basic express server:
 
