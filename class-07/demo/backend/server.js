@@ -5,6 +5,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+const { response } = require('express');
 
 // using the express variable to instantiate a new instance of an Express server
 const app = express();
@@ -28,17 +29,33 @@ app.get('/', (request, response) => {
 });
 
 // Create a route for handling shopping list requests
-app.get('/shoppingList', (req, res) => {
-    // this is the request for data the client made in the browser, via React
-    const type = req.query.type;
-    console.log('type of list requested: ', type);
+app.get('/shoppingList', (req, res, next) => {
+    try {
+        // // this is the request for data the client made in the browser, via React
+        // const type = req.query.type;
+        // console.log('type of list requested: ', type);
+        
+        // // Create a new object by passing our request to the List class.
+        // const listResults = new List(type);
+        // console.log("List Result: ", listResults);
+        
+        // // Send the newly created List object in the response object.
+        // res.send(listResults);
 
-     // Create a new object by passing our request to the List class.
-    const listResults = new List(type);
-    console.log("List Result: ", listResults);
+        let dataThatDoesntExist = require('./this-data-does-not-exist.js');
+        response.status(200).send(dataThatDoesntExist);
 
-    // Send the newly created List object in the response object.
-    res.send(listResults);
+
+    } catch (error) {
+        // console just to look at the error object
+        console.log(error);
+        error.customMessage = 'Something went wrong in your shopping list API call...';
+
+        // console error the custom message plus the error to get the full picture
+        console.error(error.customMessage + error);
+        // next can be used to pass an error to express for the error middleware to handle
+        next(error);
+    }
 });
 
 // this class will be used to fulfill requests for shopping list
@@ -55,6 +72,12 @@ class List {
         this.items = List.shoppingList.lists.find(listObj => listObj.listName === type).items;
     }
 }
+
+// error handling middleware
+// this middleware MUST be the last app.use() 
+app.use((error, request, response, next) => {
+    response.status(500).send(`oops! Something went wrong: ${error.customMessage}! Call the developer! ${error.message}`);
+});
 
 // listen tells our express server which port to send data through
 app.listen(PORT, () => console.log(`listening on PORT ${PORT}`));
