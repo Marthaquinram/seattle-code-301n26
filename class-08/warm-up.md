@@ -16,6 +16,14 @@ class App extends React.Component {
       bananas = ''
     }
   }
+  componentDidMount () {
+  getBanana();
+  }
+  getBanana = async () => {
+    const url = `${SERVER}/bananas`
+    bananas = await axios.get(url)
+    this.setState({bananas})
+  }
 
   render() {
     return(
