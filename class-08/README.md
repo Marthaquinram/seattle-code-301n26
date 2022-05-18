@@ -31,6 +31,16 @@ As a result of completing Lecture 8 of Code 301, students will be able to:
 
 ## Notes
 
+- Thunder Client
+  - Docs: <https://github.com/rangav/thunder-client-support#usage>
+  - Similar to Postman or Insomnia
+  - We will use Thunder Client more as we move into using other HTTP methods.
+  - Click "New Request" to get started
+    - Paste the base URL into GET request bar.
+    - Fill in your Query Parameters with your key and params.
+    - Hit "Send" and view the response object in the Response Tab.
+    - Inspect the "shape" of the data and see if it conforms to your needs.
+
 1. What is an API?
 
 - holds all the data we could ever need and sends it in a request object
