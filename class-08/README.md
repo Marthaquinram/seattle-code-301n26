@@ -11,6 +11,7 @@ Today we will use our express server to request information from third party API
 - Code review of lab assignment
 - Review code challenges
 - Introduction of today's code challenge topic
+  - Repl.it Demo: <https://replit.com/@HexxKing1/301n26-Code-Challenges-RegEx-1#index.js>
 - Requesting data from 3rd party APIs via the server
 - Code Demo
 - Lab Preview
@@ -30,15 +31,46 @@ As a result of completing Lecture 8 of Code 301, students will be able to:
 
 ## Notes
 
+- Thunder Client
+  - Docs: <https://github.com/rangav/thunder-client-support#usage>
+  - Similar to Postman or Insomnia
+  - We will use Thunder Client more as we move into using other HTTP methods.
+  - Click "New Request" to get started
+    - Paste the base URL into GET request bar.
+    - Fill in your Query Parameters with your key and params.
+    - Hit "Send" and view the response object in the Response Tab.
+    - Inspect the "shape" of the data and see if it conforms to your needs.
+
 1. What is an API?
+
+- holds all the data we could ever need and sends it in a request object
 
 1. Why do we need a server?
 
+- a device that talks to the rest of the internet
+- it sends/recieves requests and responses
+- code in servers are easy to find through the browser, therefore, a server is a great place to store secret keys
+
 1. What do we keep in our .env file?
+
+- anything(values) we want confidential
+- store API keys
+- store other variables that will link to your server URL
 
 1. Nodemon will automatically detect changes that we make to all the files in our server, however, if we make a change to THIS file, we must restart nodemon for it to take affect.
 
+- Nodemon aka "No Demon"
+  - Runs your server and restarts it for you when you make changes
+    - the only exception is if you make a change to your `.env` file!
+  - Install it: `npm install --save-dev nodemon`
+    - `--save-dev` is just saving nodemon as a developer dependencies and not as a app dependency
+    - you can see it in package lock, its under a different object
+  - Start your server: `npx nodemon server.js`
+
 1. True or False: all API's require a key
+
+- False, not all APIs need a key!
+- Pokemon, Game of Thrones, Star Wars API don't need keys!
 
 1. To make an API call in the server using axios:
 
@@ -54,7 +86,7 @@ As a result of completing Lecture 8 of Code 301, students will be able to:
 
 ## Introducing Regular Expressions 101
 
-- repl.it Demo:
+- repl.it Demo: <https://replit.com/@HexxKing1/301n26-Code-Challenges-RegEx-1#index.js>
 - What is Regex?
   - Regular expressions, often shortened to "regex" or "regexp", are patterns that help programmers match, search, and replace text.
   - Regular expressions are very powerful, but can be hard to read because they use special characters to make more complex, flexible matches.

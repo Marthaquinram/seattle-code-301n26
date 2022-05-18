@@ -23,14 +23,29 @@ As a result of completing Class 7 of Code 301, students will be able to:
 
 - Describe and Define:
   - Async
+    - prevents our function from not stopping while it waits for a response from Axios.
   - Server
+    - a device that processes a request and response from a client/server
   - ReST
+    - Representaional State Transfer
+    - GET = READ
+    - These are a set of guidelines/rules that all APIs should abide by if you want clients on the internet to interact.
   - Express
     - Application Middleware
+      - Bridge software that fills any gaps that a application has in order to run.
+      - Security/vulnerabilities
+        - like when you are vising your banking website and your credientails get cached and a "harmless" website can steal your credientals that way.
     - Route Middleware
+      - CORS: "body guard of the internet"
   - cors
+    - Body guard of the internet
   - env variables
+    - dotenv
+    - a file that hides your API keys from GitHub/hackers
+    - make sure you add the .env to your .gitignore
   - WRRC
+    - World Rock and Roll Confederation
+    - Web Request Response Cycle!
 - Hook up a front end React application with a back end server
 - Create an Express server from scratch
 
