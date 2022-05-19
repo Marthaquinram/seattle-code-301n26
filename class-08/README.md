@@ -41,6 +41,24 @@ As a result of completing Lecture 8 of Code 301, students will be able to:
     - Hit "Send" and view the response object in the Response Tab.
     - Inspect the "shape" of the data and see if it conforms to your needs.
 
+- Heroku Deployment
+  - Push your server repo to GitHub
+  - Sign up/Log in to Heroku
+  - Click the 'New' button in the top right corner and select 'Create new app'
+  - Name your app and click the 'Create app' button
+  - Add the Heroku remote to your local app via the Command Line
+    - `heroku git:remote -a your-server-app`
+  - Deploy your app via the Command Line
+    - `git push heroku main`
+  - Look for the '-----> Build succeeded!' message in your Terminal/Ubuntu
+  - Copy/paste the URL under the '-----> Launching...' print out, into the browser to see the home end point in your server
+    - ex: `https://city-explorer-api.herokuapp.com/`
+  - You can also return to the Heroku UI and click on the 'Open App' button in the top right corner of the dashboard.
+  - When you make changes to your server and need to push those changes to Heroku:
+    - ACP like normal
+    - `git push heroku main`
+    - view your changes in the browser
+
 1. What is an API?
 
 - holds all the data we could ever need and sends it in a request object
