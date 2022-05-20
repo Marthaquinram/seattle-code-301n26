@@ -13,6 +13,7 @@ Today we will dive a little bit deeper into Express and higher level programming
 - Warm-up exercise
 - Review code challenges
 - Introduction of today's code challenge topic
+  - Repl.it Demo: <https://replit.com/@HexxKing1/301n26-Code-Challenges-Object-Iteration#index.js>
 - Code review of lab assignment
 - Code Demo
 - Lab Preview
@@ -20,7 +21,7 @@ Today we will dive a little bit deeper into Express and higher level programming
 ## Learning Objectives
 Students will be able to:
 
-- Describe and Define  
+- Describe and Define
   - Substandard programming patterns
   - Refactoring opportunities
   - Efficiency Loss/Gain
