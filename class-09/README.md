@@ -20,6 +20,7 @@ Today we will dive a little bit deeper into Express and higher level programming
   - Repl.it Demo: <https://replit.com/@HexxKing1/Promises#index.js>
 - Refactoring
 - Refactoring with Promises
+  - Repl.it Demo: <https://replit.com/@HexxKing1/Refactoring#index.js>
 - Modules
 - Lab Preview
 
