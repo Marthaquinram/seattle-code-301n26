@@ -10,15 +10,16 @@ Today we will dive a little bit deeper into Express and higher level programming
 
 ## Daily Plan
 
-- Warm-up exercise
 - Review code challenges
 - Introduction of today's code challenge topic
   - Repl.it Demo: <https://replit.com/@HexxKing1/301n26-Code-Challenges-Object-Iteration#index.js>
+- Warm-up exercise
 - Code review of lab assignment
 - Code Demo
 - Lab Preview
 
 ## Learning Objectives
+
 Students will be able to:
 
 - Describe and Define
@@ -52,6 +53,7 @@ Students will be able to:
 
 
 1. `async and await` - vs - `.then() and .catch()`
+
   ```javaScript
   async function doSomething() {
     try{
@@ -74,6 +76,7 @@ Students will be able to:
   ```
 
 1. Modularizing a file on the server
+
   ```javaScript
   function doSomething(){
     // does something really cool
@@ -81,6 +84,7 @@ Students will be able to:
 
   module.exports = doSomething
   ```
+
   - OR, it can be writen like this
 
   ```javaScript
@@ -97,6 +101,7 @@ Students will be able to:
   ```
 
 1. We can also export more than one function by putting it in an object
+
   ```javaScript
   module.exports = {
     doSomething: function(){
@@ -108,6 +113,7 @@ Students will be able to:
     }
   }
   ```
+
   - to access a function from the object above in the server, we would...
 
   ```javaScript
