@@ -9,7 +9,7 @@ class Main extends React.Component {
     return (
       <>
         <Container>
-          <Row>
+          <Row sm={3} md={4} lg={5}>
             {beastData.map(beast => (
               <HornedBeast
                 key={beast._id}

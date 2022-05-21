@@ -1,0 +1,43 @@
+#App{
+  border: 30px solid slateblue;
+  text-align: center;
+  padding: 30px;
+  color: indigo;
+  background-color: aliceblue;
+  font-family: 'Copperplate';
+}
+#purpleHeader{
+  font-size: 100px;
+  text-shadow: 3px 5px black;
+  color: indigo;
+
+}
+#blueHeader{
+  font-size: 100px;
+  text-shadow: 3px 5px black;
+  color: cornflowerblue;
+
+}
+#beast{
+  border: 5px solid hotpink;
+border-radius: 25px;
+color: blueviolet;
+background-color: lavender;
+}
+
+.col{
+  margin-bottom: 25px;
+
+}
+#beastImg{
+  border: 4px solid blueviolet;
+  border-radius:  25px;
+}
+.beastDesc{
+  margin-top: 10px;
+
+}
+.heart{
+  font-size: 20px;
+  color: red;
+}

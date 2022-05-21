@@ -18,17 +18,18 @@ class HornedBeast extends React.Component {
     return (
       <>
         <Col>
-          <Card>
-            <Card.Title>{this.props.title}</Card.Title>
+          <Card id="beast" className="h-100 p-3 fw-bold">
+            <Card.Title className="fw-bold fs-2">{this.props.title}</Card.Title>
             <Card.Img
+            id="beastImg"
               src={this.props.imageUrl}
               alt={this.props.description}
               title={this.props.title}
               onClick={this.addFavorites}
               />
             <Card.Body>
-              <Card.Text>{this.props.description}</Card.Text>
-              <Card.Text>Favorites: {this.state.favorites}</Card.Text>
+              <Card.Text className="beastDesc">{this.props.description}</Card.Text>
+              <Card.Text className="heart">Favorites: {this.state.favorites}</Card.Text>
             </Card.Body>
           </Card>
         </Col>

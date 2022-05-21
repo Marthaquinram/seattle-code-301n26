@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 class App extends React.Component {
   render() {
     return (
-      <Container>
+      <Container fluid id="App">
         <Header />
         <Main />
         <Footer />
