@@ -15,7 +15,6 @@ Today we will dive a little bit deeper into Express and higher level programming
   - Repl.it Demo: <https://replit.com/@HexxKing1/301n26-Code-Challenges-Object-Iteration#index.js>
 - Feedback Overview
 - Warm-up exercise
-- Review previous concepts
 - Code review of lab assignment
 - Promises vs Async
 - Refactoring
