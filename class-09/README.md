@@ -42,9 +42,23 @@ Students will be able to:
 
 1. What is a Promise?
 
+- a Promise is an object in JavaScript that represents the eventual completion or failure of an async operation and it's resulting value.
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise>
+
 1. `async and await` - vs - `.then() and .catch()`
 
+ES6 saw the introduction of the `Promise` object as well as new methods to handle the execution of these Promises: `then`, `catch`, and `finally`. But a year later, in ES7, the language added another approach and two new keywords: `async` and `await`.
+
+- When returning a Promise inside an async function, you don’t need to use await.
+- <https://www.smashingmagazine.com/2020/11/comparison-async-await-versus-then-catch/>
+- The difference is that in an async function, JavaScript will pause the function execution until the promise settles. With `then()`, the rest of the function will continue to execute but JavaScript won't execute the `.then()` callback until the promise settles.
+- <https://dev.to/masteringjs/using-then-vs-async-await-in-javascript-2pma#:~:text=The%20difference%20is%20that%20in,JavaScript%20won't%20execute%20the%20.>
+
 1. What is the difference between a Promise and using `.then()/.catch()`?
+
+- `.then()` is a handler function that is called when a Promise is returned either fulfilled or rejected.
+- `.catch()` is a method that calls an `onRejected` function to handle a rejected Promise.
+- `.then` and `.catch` are methods and `Promise` is an object.
 
 1. What is DRY code?
 
