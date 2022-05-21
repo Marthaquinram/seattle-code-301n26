@@ -17,6 +17,7 @@ Today we will dive a little bit deeper into Express and higher level programming
 - Warm-up exercise
 - Code review of lab assignment
 - Promises vs Async
+  - Repl.it Demo: <https://replit.com/@HexxKing1/Promises#index.js>
 - Refactoring
 - Refactoring with Promises
 - Modules
