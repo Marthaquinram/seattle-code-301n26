@@ -61,7 +61,19 @@ ES6 saw the introduction of the `Promise` object as well as new methods to handl
 - `.catch()` is a method that calls an `onRejected` function to handle a rejected Promise.
 - `.then` and `.catch` are methods and `Promise` is an object.
 
+1. What is refactoring?
+
+- it is the process of restructuring existing computer code changing the inner workings without changing its external behavior. Refactoring is intended to improve nonfunctional attributes of the software.
+- DRY
+- Our  `server.js` is getting pretty large!
+- Our functions are big and doing multiple tasks
+- Our code is unreadable
+- Every API that we add to our app, is just going to continue to add to these problems...
+
 1. What is DRY code?
+
+- DON'T REPEAT YOURSELF!
+- This applies to both documentation and code!
 
 1. Why do we modularize our code?
 
