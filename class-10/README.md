@@ -8,6 +8,8 @@ Today we will talk about in-memory storage as well as dive deeper into modulariz
 
 - Warm-up exercise
 - Review code challenges
+- Introduce new code challege
+  - Repl.it Demo: <https://replit.com/@HexxKing1/301n26-Code-Challenges-Nested-For-Loops#index.js>
 - Code review of lab assignment
 - In-memory persistence
 - Lab Overview
@@ -58,8 +60,7 @@ As a result of completing lecture 10 of Code 301, students will:
   ```javaScript
   if (cache[key] && (Date.now() - cache[key].dateAdded < 50000)) {
     console.log('Cache hit');
-  } else { 
+  } else {
     // dump the data and get fresh data from the API
   }
   ```
-  
