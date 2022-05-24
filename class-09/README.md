@@ -30,10 +30,25 @@ Students will be able to:
 
 - Describe and Define
   - Substandard programming patterns
+    - forgetting semi-colons
+    - don't use enough comments in code to keep things visually organized
+    - being no specfic enough with variable names and mixing them up with other variables
+    - I don't write DRY code at first, I get it to work, then I refactor
   - Refactoring opportunities
+    - Not readable code or "pure" (unintended side effects)
+    - Decrease the # of lines of code
+    - to make it DRY
+    - to make our variable look up time quicker
+    - anytime you are given more data, you may have to refactor to accomdate that new data
+    - we modularize to keep our code organized
   - Efficiency Loss/Gain
   - Modularization
+    - rafactoring our server file into smaller bites of code.
+    - `weather.js` for all the weather-related code
+    - `movies.js` for all the movies-related code
   - Single Responsibility Principle (SRP)
+    - your function should do ONE thing.
+    - your function should not do more than one thing because if one of those things breaks, it breaks ALL the functionality of that function.
 - Execute
   - Refactor monolithic functions into smaller, single responsibility functions
   - Create a "controller" function
