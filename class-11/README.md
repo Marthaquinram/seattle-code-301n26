@@ -11,6 +11,7 @@ To start, we will introduce Mongodb and Mongoose. We will create data models and
 - Warm-up exercise
 - Review code challenges
 - Introduction of today's code challenge topic
+  - Repl.it Demo: <https://replit.com/@HexxKing1/301n26-Code-Challenges-Chaining-Methods#index.js>
 - Code review of lab assignment
 - Mongo, Mongoose, Data Modeling
 - Code Demo
