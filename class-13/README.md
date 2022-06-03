@@ -25,9 +25,10 @@ Today we do the final step in full CRUD funtionality for our database. This step
 ## Daily Plan
 
 - Warm-up exercise
+- Exam Preview
 - Review code challenges
-- Code review of lab assignment
-- Updating Resources
+- Introduce new code challenges
+- Creating, Deleting & Updating Resources
 - Code demo
 - Lab preview
 
