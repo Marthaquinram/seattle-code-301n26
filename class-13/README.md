@@ -28,6 +28,7 @@ Today we do the final step in full CRUD funtionality for our database. This step
 - Exam Preview
 - Review code challenges
 - Introduce new code challenges
+  - repl.it demo: <https://replit.com/@HexxKing1/301n26-Code-Challenges-String-Manipulation#index.js>
 - Creating, Deleting & Updating Resources
 - Code demo
 - Lab preview
