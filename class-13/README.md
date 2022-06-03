@@ -4,6 +4,20 @@
 
 In our next class we will discuss Diversity, Equity and Inclusion.  Be sure to complete [the reading assignment](https://codefellows.github.io/code-301-guide/curriculum/class-14/DISCUSSION) before class begins in order to acheive full credit for the activity.
 
+## Exam Preview
+
+- Exam will take place on Saturday, June 11th.
+- I will be giving a review lecture on Saturday morning before the exam.
+- You will be given starter code that will have minor bugs in it. You will need to fix the bugs and then add some features onto the code.
+- There will be tests that you can run so you will know if you have completed the tasks correctly.
+- You will need to deploy both your front-end and back-end.
+- You will have 4 hours to complete the exam.
+- You must be present in Remo, sitting alone at a table while taking the exam.
+- You may use any resource except for other people.
+- If you are stuck on a "gituation", ask the instructor for assistance.
+- TAs may not help you complete the exam.
+- There will be an option for one retake if you happen to fail the exam the first try.
+
 ## Overview
 
 Today we do the final step in full CRUD funtionality for our database. This step is to implement the ability to update records that exist in our database.
@@ -21,7 +35,7 @@ Today we do the final step in full CRUD funtionality for our database. This step
 
 As a result of completing lecture 13 of Code 301, students will:
 
-- Describe and Define 
+- Describe and Define
   - UPDATE
   - PUT
 - Be able to update a resources in a mongo database
@@ -36,9 +50,9 @@ As a result of completing lecture 13 of Code 301, students will:
   ```javaScript
   const SERVER = 'http://localhost:3001';
   // id of the record to update
-  const id = 2; 
+  const id = 2;
   // the entire record with the updated information
-  const updatedRecord = {name: 'bobby', age: 105}; 
+  const updatedRecord = {name: 'bobby', age: 105};
 
   axios.put(`${SERVER}/${id}`, { recordToUpdate: updatedRecord });
   ```
@@ -75,7 +89,7 @@ As a result of completing lecture 13 of Code 301, students will:
     })
   }
   ```
-1. Deploying Mongo to Heroku!  
+1. Deploying Mongo to Heroku!
 
 ### Hosted Mongo Databases: Atlas
 
