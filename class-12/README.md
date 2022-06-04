@@ -31,6 +31,19 @@ As a result of completing lecture 12 of Code 301, students will:
 
 ## Notes
 
+- Passing Arguments to Event Handlers in React
+  - <https://reactjs.org/docs/handling-events.html>
+
+  ```jsx
+  handleDeleteCat = async (event, catToBeDeleted) => {
+    const filteredCats = this.props.cats.filter(cat => cat._id !== catToBeDeleted);
+    this.props.updateFilteredCats(filteredCats);
+    await axios.delete(`http://localhost:3001/cats/${catToBeDeleted}`);
+  }
+
+  <Button onClick={event => this.handleDeleteCat(event, cat._id)} >Delete this Cat!</Button>
+  ```
+
 1. What does the C and D stand for in CRUD?
 
 CREATE and DELETE
