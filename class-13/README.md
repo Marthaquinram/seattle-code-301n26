@@ -46,8 +46,20 @@ As a result of completing lecture 13 of Code 301, students will:
 ## Notes
 
 1. Why do we need to talk about Diversity and Inclusion?
+
+- teams work better while feeling comfortable with each other
+- it's the "right" thing to do to treat people nice
+- we are working with people!
+- it's big world and lots of folx to share it!
+
 1. What does the U stand for in CRUD?
+
+UPDATE
+
 1. How do we find a record by id and update it in Mongoose?
+
+`Model.findByIdAndUpdate()`
+
 1. Sending an axios request to update a record:
   ```javaScript
   const SERVER = 'http://localhost:3001';
@@ -65,7 +77,7 @@ As a result of completing lecture 13 of Code 301, students will:
 
   callback(request, response) {
     const record = request.body.recordToUpdate;
-    const id = request.query.params.id;
+    const id = request.params.id;
 
     Model.findOneAndUpdate(id, record);
   }
