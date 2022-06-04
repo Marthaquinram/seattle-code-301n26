@@ -33,11 +33,18 @@ As a result of completing lecture 12 of Code 301, students will:
 
 1. What does the C and D stand for in CRUD?
 
+CREATE and DELETE
+
 
 1. What are three ways to send information from the front-end to the back-end?
 
+- request.query
+- request.body
+- request.params
 
-1. Of the three ways to send information, which two are send in the URL?
+1. Of the three ways to send information, which two are sent in the URL?
+
+- params and query
 
 
 1. How to send information from the front-end to the back-end using Axios:
