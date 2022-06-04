@@ -18,7 +18,7 @@ Today we will focus on the `C` and the `D` of the `CRUD`:`CREATE` and `DELETE`. 
 
 As a result of completing lecture 12 of Code 301, students will:
 
-- Describe and Define 
+- Describe and Define
   - POST
   - DELETE
   - params
@@ -41,6 +41,7 @@ As a result of completing lecture 12 of Code 301, students will:
 
 
 1. How to send information from the front-end to the back-end using Axios:
+
   **QUERY**
   ```javaScript
   const randomString = 'info that I want to send to the server';
@@ -71,7 +72,7 @@ axios.delete(`${SERVER}/${id}`})
 - they come before any queries
 - the server defines what the key is for the params like this: `app.get('/someRoute/:id', callBack)`
   - That `:id` can be called anything - it is a variable (ie `app.get('/someRoute/:banana', callback)`)
-- The value of the params is what comes in in the URL in that position. So, in this case, the key is `id` and the value is `12`. 
+- The value of the params is what comes in in the URL in that position. So, in this case, the key is `id` and the value is `12`.
 - sent on the request.params
   - this will be `request.params.id`
 
