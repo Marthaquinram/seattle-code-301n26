@@ -45,9 +45,51 @@ As a result of completing lecture 13 of Code 301, students will:
 
 ## Notes
 
+- Optional Chaining Operator `?.`
+  - Optional chaining is a handy recent feature of JavaScript (introduced in ES2020) that lets you check for nullish values while accessing property values.
+  - The optional chaining operator (?.) enables you to read the value of a property located deep within a chain of connected objects without having to check that each reference in the chain is valid.
+  - This will become handy when building our UPDATE feature in React.
+    - Think about how we can update a nested value within a state property...
+    - If we start to update just one value within our Book object, it could cause our app to break due to a "nullish" value.
+    - This is where the optional chaining operator comes in! It only cares that the Book object is valid and will allow us to continue to update a nested property inside of our Book object in order to save the new value in State.
+
 1. Why do we need to talk about Diversity and Inclusion?
+
+- teams work better while feeling comfortable with each other
+- it's the "right" thing to do to treat people nice
+- we are working with people!
+- it's big world and lots of folx to share it!
+
 1. What does the U stand for in CRUD?
+
+- UPDATE
+  - If you want to update a resource, what information do you need?
+    - `_id`: you will need a way of identifying the resource
+      - the _id is going to be sent in the params
+    - the property you want to update and it's new value
+      - the updated values will be sent body
+  - What are the steps needed to make an update happen in the frontend?
+    - create an update button that grabs the `_id` of the book that the button belongs to.
+    - the update book reveals a form that will allow us to update properties
+    - our update form will grab all the properties from the book that was clicked on and auto-fill the input fields for us.
+    - our update form will create an object with the `_id` and the new values and pass it to the async function
+    - async function to PUT the request.body to the URL
+  - What are the steps needed to make an update happen in the backend?
+    - grab the `_id` from the `request.params.id`
+    - we need some kind of Mongoose method that updates our document in the database
+    - we should pass the new updated book data along to the database
+    - we want to return the newly updated book
+
+- PATCH vs PUT
+  - PATCH is another HTTP method that is used to update a document in MONGO however, it only updates SOME properties but not all the properties.
+  - PUT updates the entire document in the database.
+
 1. How do we find a record by id and update it in Mongoose?
+
+- `Model.findByIdAndUpdate(id, update, options)`
+  - <https://mongoosejs.com/docs/api/model.html#model_Model.findByIdAndUpdate>
+  - HINT: Look into the `new` option for your lab #13
+
 1. Sending an axios request to update a record:
   ```javaScript
   const SERVER = 'http://localhost:3001';
@@ -65,7 +107,7 @@ As a result of completing lecture 13 of Code 301, students will:
 
   callback(request, response) {
     const record = request.body.recordToUpdate;
-    const id = request.query.params.id;
+    const id = request.params.id;
 
     Model.findOneAndUpdate(id, record);
   }
