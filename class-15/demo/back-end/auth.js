@@ -1,6 +1,11 @@
+// copy and paste this file into your server!
+
+'use strict';
+
 const jwt = require('jsonwebtoken'); // auth
 const jwksClient = require('jwks-rsa'); // auth
 
+// This is our function we created to verify our user
 // This is a special function for express called "Middleware"
 // We can simply "use()" this in our server
 // When a user is validated, request.user will contain their information
@@ -14,6 +19,10 @@ function verifyUser(request, response, next) {
 
   try {
     const token = request.headers.authorization.split(' ')[1];
+    // this console allows me to grab the token so I can use it to test it in ThunderClient
+    // make a request from the client-side, get my token back, then test it in ThunderClient
+    console.log("Token: ", token);
+    // we get .verify from jwt - it verifies the user
     jwt.verify(token, getKey, {}, valid);
   } catch (error) {
     next('Not Authorized');

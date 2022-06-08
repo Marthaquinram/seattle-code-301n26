@@ -6,7 +6,7 @@ const bookSchema = new Schema({
   title: String,
   description: String,
   status: String,
-  email: String
+  email: String // new lab 15
 });
 // Schema defines the shape of the data
 
