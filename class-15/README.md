@@ -28,10 +28,35 @@ As a result of completing lecture 15 of Code 301, students will:
 ## Notes
 
 1. The difference between Authentication and Authorization is...
+
+- Authentication is the process of verifying who someone is
+- Authorization is the process of verifying what specific applications, files, and data a user has access to.
+
 1. There are different types of authentication. Give an example of being authenticated using OAuth.
+
+- The access token is used to for authentication and authorization to get access to the resources from the resource server.
+
 1. What is the difference between OAuth and Auth0?
+
+- OAuth, which is pronounced "oh-auth," enables an end user's account information to be used by third-party services, such as Facebook and Google, without exposing the user's account credentials to the third party.
+- Auth0 generates access tokens for API authorization scenarios, in JSON web token (JWT) format. The permissions represented by the access token, in OAuth terms, are known as scopes. When an application authenticates with Auth0, it specifies the scopes it wants. If those scopes are authorized by the user, then the access token will represent these authorized scopes.
+
 1. What is Auth0? What are the requirements to use Auth0?
+
+<https://auth0.com/docs/get-started/auth0-overview>
+
+- Auth0 is a flexible, drop-in solution to add authentication and authorization services to your applications. Your team and organization can avoid the cost, time, and risk that come with building your own solution to authenticate and authorize users.
+- uses OAuth (oh-auth) under the hood
+- prevents us from having to write lots of code to make it work in our app
+
+
 1. How does Auth0 make sure you are who you say you are?
+
+- client uses some tool to bridge the login gap between you and Google/Pinterest/Amazon/Paypal/GitHub/Facebook
+- a "handshake" occurs between google (or someone similar) and the client and a token is created
+- the client uses the token when requesting data from the backend
+- the backend verifies the token
+  - FYI tokens can expire after some time
 
 - Important Links:
   - Quick Start: <https://auth0.com/docs/quickstarts>
