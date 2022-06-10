@@ -1,5 +1,19 @@
 # Final Project Kick-off
 
+## Final Project Ideas
+- Locate all the names of the new planets/star/moons
+- Soccer League - look at diff teams in the premier teams
+- New and improved of Zayah's tarot site
+- look up a location and watch climate change over time
+- News api - snippets of mass shootings
+- public database of police info + complaints filed against them
+- Mixed Drinks app - put in an ingredient and it returns recipes
+  - add in a music API to match a playlist with the drink
+- Resources for PoC: education, cultural, mental health, agricultural
+- NHTSA API cross with a car price API and calculate safty per dollar
+- personality test - psych API - big 5 personality analysis
+- Dance API app that helps you learn new stlyes at home
+
 ## Overview
 
 Today is the last day of formal lecture. It's time to add authentication to our app, so we know, with some level of confidence, who our users are.
